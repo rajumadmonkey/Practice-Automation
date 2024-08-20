@@ -1,16 +1,22 @@
 {
-  "name": "project1",
+  "name": "cypress",
   "version": "1.0.0",
-  "description": "",
+  "description": "End to End test cases",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajumadmonkey/End-To-End-push-from-VS-code-.git"
+  },
+  "author": "RajuMadMonkey",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajumadmonkey/End-To-End-push-from-VS-code-/issues"
+  },
+  "homepage": "https://github.com/rajumadmonkey/End-To-End-push-from-VS-code-#readme",
   "dependencies": {
-    "cypress": "^10.4.0",
-    "package": "^1.0.1"
+    "cypress": "^13.13.3"
   }
 }
